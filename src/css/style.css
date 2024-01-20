@@ -1,0 +1,88 @@
+body{
+    background-color: black;
+    color:grey;
+    font-size: 22px;
+    font-family: Helvetica,Arial,sans-serif;
+    opacity: .7;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+header{
+    height: 69px;
+    border-bottom: 1px solid grey;
+    position: sticky;
+    
+
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    height: 69px;
+}
+
+.logo{
+    max-height: 50px;
+    padding-left: 10px;
+    max-width: 200px;
+    margin-top: 10px;
+    
+
+    
+}
+
+.navMenu{
+    
+    padding-top: 20px;
+    
+    
+    
+}
+
+.navItem{
+    display: inline;
+    text-decoration: underline;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+
+
+
+.mission.container
+{
+    display: flex;
+    flex-direction: column;
+    flex:1 1 700px;
+    justify-content: center; 
+    background-image: url(/src/img/img-mission-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    
+}
+
+
+.mission h2, 
+.mission h4{
+    background-color: black;
+
+        
+}
+.mission h2{
+    padding-left: 550px;
+    padding-right: 500px;
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+
+.mission h4{
+    padding-left: 121px;
+    padding-right: 130px;
+    margin-left: 1px;
+    padding-bottom: 10px;
+    
+}
