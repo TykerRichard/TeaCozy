@@ -3,7 +3,7 @@ body{
     color:grey;
     font-size: 22px;
     font-family: Helvetica,Arial,sans-serif;
-    opacity: .7;
+    opacity: .9;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -29,6 +29,7 @@ header .container{
     padding-left: 10px;
     max-width: 200px;
     margin-top: 10px;
+    opacity: .5;
     
 
     
@@ -55,35 +56,146 @@ header .container{
 .mission.container
 {
     display: flex;
-    flex-direction: column;
+    
     flex:1 1 700px;
     justify-content: center; 
     background-image: url(/src/img/img-mission-background.jpg);
     background-repeat: no-repeat;
     background-position: center;
     align-items: center;
+    min-width: 1200px;
     
 }
 
 
-.mission h2, 
-.mission h4{
+.mission section{
     background-color: black;
+    flex:0 1 1200px;
+    padding-bottom: 10px;
 
         
 }
 .mission h2{
-        padding-left: 402px;
-        padding-right: 362px;
         font-size: 40px;
         padding-bottom: 15px;
+        text-align: center;
+        font-weight: bold;
     }
-}
+
 
 .mission h4{
-    padding-left: 121px;
-    padding-right: 130px;
-    margin-left: 1px;
+
     padding-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
     
+}
+
+.tom{
+    display: flex;
+    flex: 1 1 1000px;
+    padding-top: 100px;
+    flex-direction: column;
+    max-height: 725px;
+
+}
+
+.tom h2,
+.tom h3{
+    text-align: center;
+    font-weight: bold;
+}
+
+.tom h2{
+    font-size: 40px;
+    
+}
+
+.tomImgs{
+    display: flex;
+    flex-direction: row;
+    max-width: 1000px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    
+}
+
+
+.tomImgs img{
+    width: 300px;
+    height: 200px;
+    padding-right: 50px;
+    padding-top: 30px;
+    
+
+}
+
+.tom figcaption{
+    text-align: center;
+    padding-right:50px ;
+    font-weight: bold;
+}
+
+
+.location.container{
+    background-image: url(/src/img/img-locations-background.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    flex: 1 1 500px;
+    max-width: 1200px;
+    justify-content: center;
+    flex-direction: column;
+    min-width:1200px ;
+    align-items: center;
+    align-self: center;
+
+    
+
+}
+
+
+.locations{
+    display: inline-flex;
+    padding-top: 15px;
+    
+
+    
+    
+    
+}
+
+.location.container h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+    
+
+    
+}
+
+.address{
+    background-color: black;
+    text-align: center;
+    align-self: center;
+    width: 300px;
+    height: 300px;
+    max-height: 400px;
+    text-align: center;
+    margin-left: 40px;
+    padding-top: 30px;
+}
+
+.address h3{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.address h4{
+    font-weight:lighter;
+    font-size: 20px;
+    line-height: 75px;
+    font-weight: bold;
 }
